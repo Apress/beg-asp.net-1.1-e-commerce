@@ -1,0 +1,8 @@
+INSERT INTO Category (DepartmentID,Name,Description) VALUES (1,'Costumes for Men','Childish costumes for adult gangsters:')
+INSERT INTO Category (DepartmentID,Name,Description) VALUES (1,'Costumes for Women','Here is our complete list of costumes for women:')
+INSERT INTO Category (DepartmentID,Name,Description) VALUES (1,'Costumes for Children','Sweet costumes for your kid:')
+INSERT INTO Category (DepartmentID,Name,Description) VALUES (2,'Combat Accessories','Choose one of these lethal weapons:')
+INSERT INTO Category (DepartmentID,Name,Description) VALUES (2,'Masks and Horns','This is our complete list of masks and horns:')
+INSERT INTO Category (DepartmentID,Name,Description) VALUES (3,'Magic Tricks','Impress your friends with these unique magic items:')
+INSERT INTO Category (DepartmentID,Name,Description) VALUES (3,'Scary Jokes','This is our complete list of scary jokes:')
+INSERT INTO Category (DepartmentID,Name,Description) VALUES (3,'Sweet Stuff','Can they get any sweeter than that?')

@@ -1,0 +1,27 @@
+A.DepartmentUnselected
+{
+  color: Blue;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+  font-size:  14px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-left: 0px
+}
+
+A.DepartmentUnselected:hover
+{
+  color: red;
+  padding-left: 0px
+}
+
+A.DepartmentSelected
+{
+  color: green;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+  font-size:  14px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-left: 0px
+}

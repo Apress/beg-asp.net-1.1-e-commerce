@@ -1,0 +1,146 @@
+A.DepartmentUnselected
+{
+  color: Blue;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+  font-size:  14px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-left: 0px
+}
+
+A.DepartmentUnselected:hover
+{
+  color: red;
+  padding-left: 0px
+}
+
+A.DepartmentSelected
+{
+  color: green;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+  font-size:  14px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-left: 0px
+}
+
+A.CategoryUnselected
+{
+  color:Blue;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+  font-size:  14px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-left: 0px
+}
+
+A.CategoryUnselected:hover
+{
+  color: red;
+}
+
+.CategorySelected
+{
+  color: green;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+  font-size:  14px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-left: 0px
+}
+
+.FirstPageText
+{
+  color: Navy;
+  font-family: Verdana, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size:  12px;
+  font-weight: bold;
+  line-height: 9px;
+  padding-left: 10px
+}
+
+.ListDescription
+{
+  color: Black; 
+  font-family: Verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;	
+}
+
+.SectionTitle
+{
+  color: red;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+  font-size:  24px;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 10px
+}
+
+.ProductName
+{ 
+  color: Red; 
+  font-family: Verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.ProductDescription
+{
+  color: Black; 
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+.ProductPrice
+{
+  color: Black; 
+  font-family: Verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.SearchBox 
+{ 
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px; 
+  color: Black; 
+}
+.SearchResults
+{ 
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px; 
+  color: Black; 
+}
+
+.AdminPageText
+{
+  color: Navy;
+  font-family: Verdana, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size:  11px;
+  font-weight: bold;
+  line-height: 12px;
+}
+
+.AdminButtonText
+{
+  color: Black;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.AdminErrorText
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: red;
+	font-style: italic;
+	font-family: Verdana, Helvetica, sans-serif;
+}

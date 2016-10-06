@@ -1,0 +1,543 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{B21B1743-95C6-4C4C-A9F2-B217DA540C63}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "JokePoint"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "JokePoint"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "SecurityLib"
+                    AssemblyName = "SecurityLib"
+                    HintPath = "..\SecurityLib\bin\SecurityLib.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "admin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin.aspx.vb"
+                    DependentUpon = "admin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "admin.aspx.resx"
+                    DependentUpon = "admin.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Checkout.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Checkout.aspx.vb"
+                    DependentUpon = "Checkout.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomerAddress.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CustomerAddress.aspx.vb"
+                    DependentUpon = "CustomerAddress.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomerCreditCard.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CustomerCreditCard.aspx.vb"
+                    DependentUpon = "CustomerCreditCard.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomerEdit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CustomerEdit.aspx.vb"
+                    DependentUpon = "CustomerEdit.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomerLogin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CustomerLogin.aspx.vb"
+                    DependentUpon = "CustomerLogin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomerNew.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CustomerNew.aspx.vb"
+                    DependentUpon = "CustomerNew.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.vb"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "error.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "error.aspx.vb"
+                    DependentUpon = "error.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "error.aspx.resx"
+                    DependentUpon = "error.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "JokePoint.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "login.aspx.vb"
+                    DependentUpon = "login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "login.aspx.resx"
+                    DependentUpon = "login.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ordersAdmin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ordersAdmin.aspx.vb"
+                    DependentUpon = "ordersAdmin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ordersAdmin.aspx.resx"
+                    DependentUpon = "ordersAdmin.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "shoppingCartAdmin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "shoppingCartAdmin.aspx.vb"
+                    DependentUpon = "shoppingCartAdmin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "shoppingCartAdmin.aspx.resx"
+                    DependentUpon = "shoppingCartAdmin.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminUserControls\CategoriesAdmin.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminUserControls\CategoriesAdmin.ascx.vb"
+                    DependentUpon = "CategoriesAdmin.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminUserControls\CategoriesAdmin.ascx.resx"
+                    DependentUpon = "CategoriesAdmin.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminUserControls\DepartmentsAdmin.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminUserControls\DepartmentsAdmin.ascx.vb"
+                    DependentUpon = "DepartmentsAdmin.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminUserControls\DepartmentsAdmin.ascx.resx"
+                    DependentUpon = "DepartmentsAdmin.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminUserControls\Logout.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminUserControls\Logout.ascx.vb"
+                    DependentUpon = "Logout.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminUserControls\Logout.ascx.resx"
+                    DependentUpon = "Logout.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminUserControls\OrderDetailsAdmin.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminUserControls\OrderDetailsAdmin.ascx.vb"
+                    DependentUpon = "OrderDetailsAdmin.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminUserControls\OrderDetailsAdmin.ascx.resx"
+                    DependentUpon = "OrderDetailsAdmin.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminUserControls\OrdersAdmin.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminUserControls\OrdersAdmin.ascx.vb"
+                    DependentUpon = "OrdersAdmin.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminUserControls\OrdersAdmin.ascx.resx"
+                    DependentUpon = "OrdersAdmin.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminUserControls\ProductDetailsAdmin.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminUserControls\ProductDetailsAdmin.ascx.vb"
+                    DependentUpon = "ProductDetailsAdmin.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminUserControls\ProductDetailsAdmin.ascx.resx"
+                    DependentUpon = "ProductDetailsAdmin.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminUserControls\ProductsAdmin.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminUserControls\ProductsAdmin.ascx.vb"
+                    DependentUpon = "ProductsAdmin.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminUserControls\ProductsAdmin.ascx.resx"
+                    DependentUpon = "ProductsAdmin.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BusinessObjects\Catalog.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessObjects\CatalogAdmin.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessObjects\OrderManager.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessObjects\ShoppingCart.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\Catalog.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\Catalog.ascx.vb"
+                    DependentUpon = "Catalog.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\Catalog.ascx.resx"
+                    DependentUpon = "Catalog.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\CategoriesList.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\CategoriesList.ascx.vb"
+                    DependentUpon = "CategoriesList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\CategoriesList.ascx.resx"
+                    DependentUpon = "CategoriesList.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\DepartmentsList.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\DepartmentsList.ascx.vb"
+                    DependentUpon = "DepartmentsList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\DepartmentsList.ascx.resx"
+                    DependentUpon = "DepartmentsList.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\FirstPage.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\FirstPage.ascx.vb"
+                    DependentUpon = "FirstPage.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\FirstPage.ascx.resx"
+                    DependentUpon = "FirstPage.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\Header.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\Header.ascx.vb"
+                    DependentUpon = "Header.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\Header.ascx.resx"
+                    DependentUpon = "Header.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\ProductsList.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\ProductsList.ascx.vb"
+                    DependentUpon = "ProductsList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\ProductsList.ascx.resx"
+                    DependentUpon = "ProductsList.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\SearchBox.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\SearchBox.ascx.vb"
+                    DependentUpon = "SearchBox.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\SearchBox.ascx.resx"
+                    DependentUpon = "SearchBox.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\SearchResults.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\SearchResults.ascx.vb"
+                    DependentUpon = "SearchResults.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\SearchResults.ascx.resx"
+                    DependentUpon = "SearchResults.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\ShoppingCart.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\ShoppingCart.ascx.vb"
+                    DependentUpon = "ShoppingCart.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\ShoppingCart.ascx.resx"
+                    DependentUpon = "ShoppingCart.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+
